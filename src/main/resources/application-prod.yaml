@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    # we don't store password as property for security
+    # username and password will be attached via variable below.
+    url: ${SPRING_DATASOURCE_URL}
+websiteUrl: https://mystore.com
